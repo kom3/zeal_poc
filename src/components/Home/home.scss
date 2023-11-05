@@ -1,0 +1,16 @@
+.body_wrpr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 15px;
+  overflow: scroll;
+  font-size: .9em;
+}
+
+@media only screen and (max-width: 600px) {
+  .body_wrpr {
+    margin-top: 0px;
+    font-size: 10px;
+  }
+}
